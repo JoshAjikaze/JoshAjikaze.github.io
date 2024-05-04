@@ -1,4 +1,5 @@
-# !/usr/bin/env sh
+#!/usr/bin/env sh
+
 # abort on errors
 set -e
 
@@ -25,4 +26,4 @@ git push -f git@github.com:<JoshAjikaze>/<JoshAjikaze>.github.io.git main
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 
-cd -      
+cd -
